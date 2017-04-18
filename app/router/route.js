@@ -3,10 +3,10 @@ app.config(function($routeProvider){
 		templateUrl : 'app/view/welcome.view.html'/*,
 		controller : 'welcomeController'*/
 	})
-	// .when('/category',{
-	// 	templateUrl : 'app/category/read_category.template.html',
-	// 	controller : 'categoryController'
-	// })
+	.when('/menu',{
+		templateUrl : 'app/view/menu/read_menu.view.html',
+		controller : 'menuController'
+	})
 	.otherwise({
 		redirectTo : '/'
 	})

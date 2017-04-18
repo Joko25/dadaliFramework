@@ -24,15 +24,10 @@
 */
 class Database
 {
-	
-	// function __construct(argument)
-	// {
-	// 	# code...
-	// }
 	private $host = "localhost";
 	private $username = "postgres";
 	private $password = "159263";
-	private $db_name = "sita";
+	private $db_name = "dadali";
 
 	public $conn;
 
